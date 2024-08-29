@@ -17,6 +17,7 @@ Bag::Bag(const Bag& bag)
 	}
 }
 
+<<<<<<< HEAD
 void Bag::setEgg(int x) {
 	this->eggNum = x;
 }
@@ -31,6 +32,8 @@ int Bag::getEggCapacity()const
 }
 
 
+=======
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
 bool Bag::add(Pet * pet) {
 	num++;
 	if (num <= capacity) {

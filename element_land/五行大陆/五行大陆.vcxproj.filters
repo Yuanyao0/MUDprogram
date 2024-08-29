@@ -36,6 +36,7 @@
     <ClInclude Include="Player.h">
       <Filter>头文件</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="ColorContainer.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -46,6 +47,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Error.h">
+=======
+    <ClInclude Include="Item.h">
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,6 +66,7 @@
     <ClCompile Include="FileStore.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Command.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -83,6 +88,14 @@
     <ClCompile Include="Player.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+=======
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="五行大陆.rc">

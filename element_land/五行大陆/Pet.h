@@ -26,6 +26,12 @@ public:
 	void setMoney(int money);
 	void showInfo();//打印属性
 	void initRevive(int life, int energy);//战斗致死，回到战斗前状态。
+<<<<<<< HEAD
+=======
+	void restoreSkillPP();//恢复技能使用次数
+	void getMaxLife()const;//获取最大生命值
+
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
 private:
 	string name;
 	int life;//生命值

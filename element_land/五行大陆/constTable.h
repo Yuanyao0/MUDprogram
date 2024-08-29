@@ -1,6 +1,7 @@
 #pragma once
 #ifndef __CONSTTABLE_H__
 #define __CONSTTABLE_H__
+<<<<<<< HEAD
 const int PETLISTCOUNT = 10;//宠物最大数目
 const std::string PETLIST[PETLISTCOUNT] = { "黄金兽","猿神","小水怪","烈焰狮","土拨鼠" ,
 											"金刚狼" ,"花精灵","蓝鲸" ,"火云牛" ,"沙尘豹"
@@ -13,6 +14,12 @@ const int INITPETEXP[PETLISTCOUNT] = { 50 , 50,100,80,100,80,50,50,70,20 };	//经
 const int INITPETLEVEL[PETLISTCOUNT] = { 1,1,1,1,1,2,2,2,2,2};	//等级
 const int ELEMENTCOUNT =5;														//元素个数
 const int MAXPETCOUNT = 2;														//最大宠物数
+=======
+const int SHOPLISTCOUNT = 6;//武器店最大数目
+const std::string SHOPLIST[SHOPLISTCOUNT] = { "刀","剑","弓箭","铠甲","盾牌","鞋子" };//武器店东西
+//const std::string SHOPLIST[SHOPLISTCOUNT] = { "DAO","JIAN","GONGJIAN","KAIJIA","DUNPAI","XIEZI" };//武器店东西
+
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
 
 
 

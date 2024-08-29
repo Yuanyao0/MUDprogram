@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Bag.h" />
+<<<<<<< HEAD
     <ClInclude Include="Battle.h" />
     <ClInclude Include="ColorContainer.h" />
     <ClInclude Include="Command.h" />
@@ -135,12 +136,19 @@
     <ClInclude Include="constTable.h" />
     <ClInclude Include="Error.h" />
     <ClInclude Include="FileStore.h" />
+=======
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="constTable.h" />
+    <ClInclude Include="FileStore.h" />
+    <ClInclude Include="Item.h" />
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
     <ClInclude Include="Pet.h" />
     <ClInclude Include="petHouse.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bag.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="Battle.cpp" />
     <ClCompile Include="ColorContainer.cpp" />
     <ClCompile Include="ColorSys.cpp" />
@@ -151,6 +159,13 @@
     <ClCompile Include="Pet.cpp" />
     <ClCompile Include="petHouse.cpp" />
     <ClCompile Include="Player.cpp" />
+=======
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="FileStore.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Pet.cpp" />
+    <ClCompile Include="petHouse.cpp" />
+>>>>>>> 06e52ffab56565c9416ca77253b3e1b46f06ac85
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="五行大陆.rc" />
