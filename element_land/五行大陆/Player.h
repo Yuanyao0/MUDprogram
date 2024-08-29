@@ -8,6 +8,8 @@
 class Player :public Attackable
 {
 public:
+	int getMoney()const;
+	int reduceMoney()const;
 	int getMiss()const;
 	void setMiss(int miss);
 	int getMoveSpeed()const;

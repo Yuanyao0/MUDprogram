@@ -131,13 +131,16 @@
     <ClInclude Include="Command.h" />
     <ClInclude Include="constTable.h" />
     <ClInclude Include="FileStore.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Pet.h" />
     <ClInclude Include="petHouse.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bag.cpp" />
+    <ClCompile Include="Command.cpp" />
     <ClCompile Include="FileStore.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Pet.cpp" />
     <ClCompile Include="petHouse.cpp" />
   </ItemGroup>
