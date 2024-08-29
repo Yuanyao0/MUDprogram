@@ -11,7 +11,8 @@ public:
 	static void wareshop(Map& map, Player* player);//进行仓库对话
 	static void weapon(Player* player);//进行武器店对话
 	static void hospital(Player* player);//进行医馆对话
-	static void clearCin();//清除缓冲区信息以及错误信息
-
+	static void shop(Player* player);//商店对话
+	static void useItem(Player* player);//使用物品功能的声明
+    static void clearCin();//清除缓冲区信息以及错误信息
 };
 #endif // !__COMMAND_H__

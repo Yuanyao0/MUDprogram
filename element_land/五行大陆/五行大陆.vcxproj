@@ -137,9 +137,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bag.cpp" />
+    <ClCompile Include="Command.cpp" />
     <ClCompile Include="FileStore.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Pet.cpp" />
     <ClCompile Include="petHouse.cpp" />
+    <ClCompile Include="Item.h" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="五行大陆.rc" />

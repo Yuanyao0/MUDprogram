@@ -50,6 +50,18 @@
     <ClCompile Include="FileStore.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Item.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="五行大陆.rc">

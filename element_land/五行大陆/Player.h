@@ -8,6 +8,8 @@
 class Player :public Attackable
 {
 public:
+	int getMoney() const;  // 获取玩家当前的金币
+	void reduceMoney(int amount);  // 减少玩家的金币
 	int getMiss()const;
 	void setMiss(int miss);
 	int getMoveSpeed()const;
@@ -33,6 +35,7 @@ public:
 	Container* getBag()const;//获取背包
 
 private:
+	int money;  // 玩家持有的金币数
 	int miss;//闪避值
 	int moveSpeed;//移速
 	int energy;//法力值
