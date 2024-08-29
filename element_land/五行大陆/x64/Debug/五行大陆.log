@@ -1,0 +1,167 @@
+﻿  Bag.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,9): error C3646: “name”: 未知重写说明符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  Battle.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,9): error C3646: “name”: 未知重写说明符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(16,16): error C2065: “mapElement”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(50,17): error C2039: "getName": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(53,7): error C2065: “nowAttacker”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(53,22): error C2065: “PLAYER”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(57,28): error C2039: "getPower": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(60,16): error C2039: "getEnergy": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(60,37): error C2039: "getSkillComsume": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(66,31): error C2039: "getLevel": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(82,27): error C2039: "getSkillPower": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(83,13): error C2039: "setEnergy": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(83,30): error C2039: "getEnergy": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(83,51): error C2039: "getSkillComsume": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(86,35): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(89,48): error C2039: "getPower": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(90,4): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(90,21): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(91,19): error C2039: "getName": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(91,41): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(98,20): error C2039: "getMiss": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(98,43): error C2065: “MISSUPPER”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(98,55): error C2065: “MISSLOWER”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(98,69): error C2065: “MISSLOWER”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(100,23): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(100,52): error C2039: "getProtectPower": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(103,42): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(104,12): error C2039: "setLife": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(104,27): error C2039: "getLife": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(105,13): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(105,51): error C2039: "getName": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(116,3): error C2065: “nowAttacker”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(116,18): error C2065: “nowAttacker”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(123,13): error C2039: "getLife": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(125,6): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(134,10): error C2039: "setExp": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(134,24): error C2039: "getExp": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(134,35): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(135,10): error C2039: "setMoney": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(135,26): error C2039: "getMoney": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(135,39): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(137,3): error C2065: “Equipment”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(137,14): error C2065: “backupEquipmet”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(137,35): error C2061: 语法错误: 标识符“Equipment”
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(138,18): error C2065: “backupEquipmet”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(140,41): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(141,19): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(142,21): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(150,10): error C2039: "initRevive": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(150,21): error C2065: “backupPlayerLife”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(150,39): error C2065: “backupPlayerEnergy”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(158,6): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(159,3): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(160,13): error C2039: "getLife": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(161,10): error C2039: "setLife": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(163,10): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(164,2): error C2065: “monster”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Battle.cpp(166,17): error C2039: "getName": 不是 "Player" 的成员
+  ColorContainer.cpp
+  ColorSys.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\ColorSys.h(5,10): error C1083: 无法打开包括文件: “ConsoleColorl.h”: No such file or directory
+  ColorSys.h
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\ColorSys.h(5,10): error C1083: 无法打开包括文件: “ConsoleColorl.h”: No such file or directory
+  Command.cpp
+  ConsoleColor.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\ConsoleColor.cpp(1,10): error C1083: 无法打开包括文件: “ConsoleColorl.h”: No such file or directory
+  FileStore.cpp
+  Pet.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,9): error C3646: “name”: 未知重写说明符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  petHouse.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,9): error C3646: “name”: 未知重写说明符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  Player.cpp
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,9): error C3646: “name”: 未知重写说明符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Pet.h(30,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(6,57): error C2530: “Player::bag”: 必须初始化引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(20,13): error C2039: "getMiss": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(20,13): error C2270: “getMiss”: 非成员函数上不允许修饰符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(22,9): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(25,14): error C2039: "setMiss": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(27,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(30,13): error C2039: "getMoveSpeed": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(30,13): error C2270: “getMoveSpeed”: 非成员函数上不允许修饰符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(32,9): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(35,13): error C2039: "getEnergy": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(35,13): error C2270: “getEnergy”: 非成员函数上不允许修饰符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(37,9): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(40,14): error C2039: "setEnergy": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(42,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(45,14): error C2039: "setMoveSpeed": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(47,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(52,19): error C3861: “getLife”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(52,7): error C2593: “operator <<”不明确
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(52,61): error C3861: “getPower”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(52,102): error C3861: “getProtectPower”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(53,55): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(53,96): error C3861: “getMoney”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(54,15): error C3861: “getExp”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(60,6): error C2039: "showGoods": 不是 "Bag" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(62,11): error C2001: 常量中有换行符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(63,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(65,13): error C2039: "getNowPos": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(65,13): error C2270: “getNowPos”: 非成员函数上不允许修饰符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(67,9): error C2065: “nowPos”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(70,14): error C2761: “bool Player::pushBag(Pet *)”: 不允许重新声明成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(70,22): error C2065: “Item”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(70,28): error C2065: “item”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(71,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(72,2): error C2059: 语法错误:“if”
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(73,2): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(73,2): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(86,2): error C2059: 语法错误:“else”
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(86,7): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(86,7): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(89,1): error C2059: 语法错误:“}”
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(89,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(92,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(92,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(102,15): error C2001: 常量中有换行符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(107,13): error C2039: "getSkillPower": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(107,13): error C2270: “getSkillPower”: 非成员函数上不允许修饰符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(109,9): error C2065: “skillList”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(109,19): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(112,13): error C2039: "getSkillComsume": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(112,13): error C2270: “getSkillComsume”: 非成员函数上不允许修饰符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(114,9): error C2065: “skillComsume”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(114,22): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(117,14): error C2039: "initRevive": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(119,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(120,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(123,14): error C2039: "setExp": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(125,12): error C3861: “getExp”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(125,23): error C2065: “rankExp”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(125,31): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(126,12): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(126,3): error C3861: “setLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(127,15): error C3861: “getExp”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(127,26): error C2065: “rankExp”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(127,34): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(128,13): error C3861: “getExp”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(128,24): error C2065: “rankExp”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(128,32): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(128,53): error C3861: “getExp”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(128,64): error C2065: “rankExp”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(128,72): error C3861: “getLevel”: 找不到标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(130,2): error C2653: “Attackable”: 不是类或命名空间名称
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(134,14): error C2039: "setNowPos": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(136,2): error C2065: “nowPos”: 未声明的标识符
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(139,188): error C2061: 语法错误: 标识符“Container”
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(139,18): error C2511: “Player *Player::creatPlayer(std::string,int,int,int,int,int,int,int,int,int,int,int,int)”:“Player”中没有找到重载的成员函数
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(144,141): error C2597: 对非静态成员“Player::bag”的非法引用
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(155,11): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(155,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(155,21): error C2761: “Bag *Player::getBag(void) const”: 不允许重新声明成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(156,1): error C2059: 语法错误:“{”
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(156,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(156,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(160,13): error C2039: "skillList": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(161,13): error C2039: "skillComsume": 不是 "Player" 的成员
+C:\Users\31376\Documents\WeChat Files\wxid_52izppwqjynx22\FileStorage\File\2024-08\五行大陆\五行大陆\五行大陆\Player.cpp(162,13): error C2039: "rankExp": 不是 "Player" 的成员
+  正在生成代码...

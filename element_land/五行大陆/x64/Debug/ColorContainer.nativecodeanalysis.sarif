@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33808.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/31376/documents/wechat files/wxid_52izppwqjynx22/filestorage/file/2024-08/五行大陆/五行大陆/五行大陆/colorcontainer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "221b04b85cbe2ee191f126925d6431f02eff31c1f91a51e13272d3a66ce5d96c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/31376/documents/wechat files/wxid_52izppwqjynx22/filestorage/file/2024-08/五行大陆/五行大陆/五行大陆/colorcontainer.h"
+          },
+          "hashes": {
+            "sha-256": "eb4cfbc93da03a7210734c8a362e0073484f0e44e0aa723608fd414d34cc26a0"
+          }
+        }
+      ]
+    }
+  ]
+}
