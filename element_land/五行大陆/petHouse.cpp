@@ -34,16 +34,6 @@ bool petHouse::add(Pet* pet) {
 
 void petHouse::remove(Pet* pet) {
 	vector<Pet*> pets_;
-	//vector<Item*>::iterator it;
-	//for (it = goods.begin(); it != goods.end(); ++it)
-	//	if (*it == item)
-	//		break;
-	//for (vector<Item*>::iterator it1 = goods.begin(); it1 != goods.end(); ++it1) {
-	//	if (it1 == it)
-	//		continue;
-	//	goods_.push_back(*it1);
-	//}
-	//ÓÃµü´úÆ÷ÃÛÖ­³ö´í£¬fuck
 	unsigned i;
 	for (i = 0; i < pets.size(); i++)
 		if (pets[i] == pet)

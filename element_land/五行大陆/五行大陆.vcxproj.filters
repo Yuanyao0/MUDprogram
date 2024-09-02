@@ -36,6 +36,30 @@
     <ClInclude Include="Player.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleColor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YourPet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pet.cpp">
@@ -50,16 +74,34 @@
     <ClCompile Include="FileStore.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Item.h">
-      <Filter>头文件</Filter>
+    <ClCompile Include="Battle.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Item.cpp">
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleColor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Command.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="ColorSys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YourPet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -78,5 +120,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt" />
+    <Text Include="SKILL.txt" />
   </ItemGroup>
 </Project>

@@ -17,6 +17,16 @@ Bag::Bag(const Bag& bag)
 	}
 }
 
+
+int Bag::getNowEggSize()const
+{
+	return eggNum;
+}
+int Bag::getEggCapacity()const
+{
+	return eggCapacity;
+}
+
 bool Bag::add(Pet * pet) {
 	num++;
 	if (num <= capacity) {
@@ -33,17 +43,7 @@ bool Bag::add(Pet * pet) {
 
 void Bag::remove(Pet* pet) {
 	vector<Pet*> pets_;
-	//vector<Item*>::iterator it;
-	//for (it = goods.begin(); it != goods.end(); ++it)
-	//	if (*it == item)
-	//		break;
-	//for (vector<Item*>::iterator it1 = goods.begin(); it1 != goods.end(); ++it1) {
-	//	if (it1 == it)
-	//		continue;
-	//	goods_.push_back(*it1);
-	//}
-	//用迭代器蜜汁出错，fuck
-	unsigned i ;
+	unsigned i;
 	for (i = 0; i < pets.size(); i++)
 		if (pets[i] == pet)
 			break;
@@ -57,16 +57,52 @@ void Bag::remove(Pet* pet) {
 	//删除参数物品并且调整顺序，再开一个VECTOR push 进去其他的item，换一下goods的指向
 }
 
+void Bag::setNowEggNum(int x)//设置捕捉蛋数量
+{
+	eggNum = x;
+}
+bool Bag::add(Egg*egg)//加入容器,成功真；装不下返回假;
+{
+	eggNum++;
+	if (eggNum <= eggCapacity) {
+		eggs.push_back(egg);//将物品放入背包
+		//cout << "The good has been put in your bag!" << endl;
+		return true;
+	}
+	else {
+		//cout << "Sorry,your bag is full!" << endl;
+		eggNum--;
+		return false;
+	}
+}
+
+void Bag::remove(Egg*egg)//删除egg
+{
+	vector<Egg*> eggs_;
+	unsigned i;
+	for (i = 0; i < eggs.size(); i++)
+		if (eggs[i] == egg)
+			break;
+	for (unsigned j = 0; j < eggs.size(); j++) {
+		if (j == i)
+			continue;
+		eggs_.push_back(eggs[j]);
+	}
+
+	eggs = eggs_;
+}
+
 void Bag::showInfo()
 {
-	//cout << "函数调试中" << endl;
-	//int index = 0;
 	for (unsigned i = 0; i < pets.size(); i++)
 		cout << i + 1 << "." << pets[i]->getName() << "\t";
 	cout << endl;
-	/*for (vector<Item*>::iterator it = goods.begin(); it != goods.end(); ++it)
-		cout << (++index) << "." << *it << "\t\t";
-	cout << endl;*/
+}
+void Bag::EggshowInfo()
+{
+	for (unsigned i = 0; i < eggs.size(); i++)
+		cout << i + 1 << "." << eggs[i]->getName() << "\t";
+	cout << endl;
 }
 
 int Bag::getNowSize() const
@@ -79,7 +115,10 @@ int Bag::getCapacity() const
 	return this->capacity;
 }
 
-
+Egg* Bag::getEggByIndex(int index)
+{
+	return eggs[index];
+}
 Pet* Bag::getPetByIndex(int index)
 {
 	return pets[index];
@@ -88,5 +127,4 @@ Pet* Bag::getPetByIndex(int index)
 Bag::~Bag() {
 
 }
-
 
