@@ -1,5 +1,10 @@
 #include "Egg.h"
 #include "constTable.h"
+Egg::Egg(int x)
+{
+	kind = x;
+}
+
 void Egg::setKind(int x) {
 	kind = x;
 }

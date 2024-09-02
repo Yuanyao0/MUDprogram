@@ -18,8 +18,11 @@ const std::string ELEMENT[ELEMENTCOUNT] = {"金","木", "水", "火", "土" };
 const int EGGKINDCOUNT = 3;													//捕捉蛋种类
 const std::string EGGNAME[EGGKINDCOUNT] = { "普通球","精英球", "大师球"};
 const double EGGPROBABILITY[EGGKINDCOUNT] = { 0.5,0.8,1};					//捕捉概率
+const int EGGPRICE[EGGKINDCOUNT] = { 10,25,50 };
 const int MAXPETCOUNT = 2;													//最大宠物数
-
+const int HPPRICE = 10;
+const int PPPRICE = 20;
+const int CAPACITY = 4;
 
 
 

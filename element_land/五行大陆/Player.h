@@ -8,6 +8,7 @@ using namespace std;
 class Player
 {
 public:
+	Player();
 	Player(string name, int pos, int money, Bag& bag);
 	void showInfo()const;//查看人物属性
 	void showBag()const;//查看背包

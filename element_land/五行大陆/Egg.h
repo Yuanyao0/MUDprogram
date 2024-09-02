@@ -4,6 +4,7 @@
 #include <string>
 class Egg {
 public:
+	Egg(int x);
 	void setKind(int x);
 	int getKind()const;
 	std::string getName();

@@ -1,275 +1,132 @@
 ﻿  Bag.cpp
   Battle.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“Bag.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“Battle.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(34,2): error C2535: “Player::Player(std::string,int,int,Bag &)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Player.h(35,2): error C2535: “Player::Player(std::string,int,int,Bag &)”: 已经定义或声明成员函数
   (编译源文件“Battle.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(11,2):
-      参见“Player::Player”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Player.h(11,2):
+  参见“Player::Player”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(16,16): error C2065: “mapElement”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(55,25): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(67,25): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(76,13): error C2511: “int Battle::receiveSkill(Pet *,Pet *,Skill *)”:“Battle”中没有找到重载的成员函数
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.h(7,7):
-      参见“Battle”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(78,33): error C2065: “AvoidableDamage”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(78,51): error C2065: “UnavoidableDamage”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(129,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(157,54): error C3867: “Skill::getHPadd”: 非标准语法；请使用 "&" 来创建指向成员的指针
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(157,41): error C2297: “+”: 无效，因为右操作数的类型为“int (__cdecl Skill::* )(void) const”
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(159,5): error C2143: 语法错误: 缺少“;”(在“}”的前面)
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(161,11): error C2065: “attackType”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(162,8): error C2065: “attackType”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(163,16): error C2039: "getEnergy": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(163,37): error C2039: "getSkillComsume": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(169,31): error C2039: "getLevel": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(185,6): error C2065: “totalPower”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(185,27): error C2039: "getSkillPower": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(186,13): error C2039: "setEnergy": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(186,30): error C2039: "getEnergy": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(186,51): error C2039: "getSkillComsume": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(189,22): error C2065: “totalPower”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(189,35): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(192,48): error C2039: "getPower": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(193,4): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(193,21): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(194,19): error C2039: "getName": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(194,41): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(201,20): error C2039: "getMiss": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(201,43): error C2065: “MISSUPPER”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(201,55): error C2065: “MISSLOWER”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(201,69): error C2065: “MISSLOWER”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(203,23): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(203,52): error C2039: "getProtectPower": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(206,42): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(207,12): error C2039: "setLife": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(207,27): error C2039: "getLife": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(208,13): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(208,51): error C2039: "getName": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(226,13): error C2039: "getLife": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(228,6): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(237,10): error C2039: "setExp": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(237,24): error C2039: "getExp": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(237,35): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(238,10): error C2039: "setMoney": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(238,39): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(240,3): error C2065: “Equipment”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(240,14): error C2065: “backupEquipmet”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(240,35): error C2061: 语法错误: 标识符“Equipment”
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(241,18): error C2065: “backupEquipmet”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(243,41): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(244,19): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(245,21): error C2065: “monster”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(253,10): error C2039: "initRevive": 不是 "Player" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(8,7):
-      参见“Player”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(253,21): error C2065: “backupPlayerLife”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Battle.cpp(253,39): error C2065: “backupPlayerEnergy”: 未声明的标识符
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(58,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(70,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(131,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(159,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(176,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(181,31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(223,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(251,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(268,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Battle.cpp(273,30): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   ColorContainer.cpp
   ColorSys.cpp
   Command.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“Command.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(34,2): error C2535: “Player::Player(std::string,int,int,Bag &)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Player.h(35,2): error C2535: “Player::Player(std::string,int,int,Bag &)”: 已经定义或声明成员函数
   (编译源文件“Command.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(11,2):
-      参见“Player::Player”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Player.h(11,2):
+  参见“Player::Player”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Command.h(10,59): error C2065: “MAPROW”: 未声明的标识符
-  (编译源文件“Command.cpp”)
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(50,5): error C2360: “capacity”的初始化操作由“case”标签跳过
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(16,62):
+  参见“capacity”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Command.h(10,67): error C2065: “MAPCOLUMN”: 未声明的标识符
-  (编译源文件“Command.cpp”)
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(50,5): error C2360: “noweggsize”的初始化操作由“case”标签跳过
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(16,13):
+  参见“noweggsize”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Command.h(10,79): error C2061: 语法错误: 标识符“Container”
-  (编译源文件“Command.cpp”)
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(76,5): error C2360: “k”的初始化操作由“case”标签跳过
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(51,13):
+  参见“k”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Command.h(11,23): error C2061: 语法错误: 标识符“Map”
-  (编译源文件“Command.cpp”)
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(76,5): error C2360: “capacity”的初始化操作由“case”标签跳过
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(16,62):
+  参见“capacity”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Command.cpp(2,10): error C1083: 无法打开包括文件: “Item.h”: No such file or directory
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(76,5): error C2360: “noweggsize”的初始化操作由“case”标签跳过
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(16,13):
+  参见“noweggsize”的声明
+  
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(102,5): error C2361: “default”标签跳过“m”的初始化操作
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(77,13):
+  参见“m”的声明
+  
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(102,5): error C2361: “default”标签跳过“k”的初始化操作
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(51,13):
+  参见“k”的声明
+  
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(102,5): error C2361: “default”标签跳过“capacity”的初始化操作
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(16,62):
+  参见“capacity”的声明
+  
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(102,5): error C2361: “default”标签跳过“noweggsize”的初始化操作
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Command.cpp(16,13):
+  参见“noweggsize”的声明
+  
   ConsoleColor.cpp
+  Egg.cpp
   FileStore.cpp
+  main.cpp
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\main.cpp(4,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\main.cpp(3,1): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
   Pet.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“Pet.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(21,9): error C2065: “INITPETEXP”: 未声明的标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(21,2): error C3861: “setExp”: 找不到标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(36,52): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(37,52): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(38,58): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(42,37): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(43,37): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(121,10): error C2039: "getExp": 不是 "Pet" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.h(9,7):
-      参见“Pet”的声明
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(6,6): error C2084: 函数“Pet::Pet(void)”已有主体
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.h(12,2):
+  参见“{ctor}”的前一个定义
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(121,10): error C2270: “getExp”: 非成员函数上不允许修饰符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(123,9): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(126,11): error C2039: "setExp": 不是 "Pet" 的成员
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.h(9,7):
-      参见“Pet”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Pet.cpp(128,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(57,52): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(58,52): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(59,58): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(63,37): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(64,37): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Pet.cpp(85,15): error C2065: “INITSKILLCOUNT”: 未声明的标识符
   petHouse.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“petHouse.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
   Player.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“Player.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(34,2): error C2535: “Player::Player(std::string,int,int,Bag &)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Player.h(35,2): error C2535: “Player::Player(std::string,int,int,Bag &)”: 已经定义或声明成员函数
   (编译源文件“Player.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Player.h(11,2):
-      参见“Player::Player”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Player.h(11,2):
+  参见“Player::Player”的声明
   
   Skill.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“Skill.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.cpp(4,8): error C2084: 函数“Skill::Skill(void)”已有主体
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.cpp(3,8):
-      参见“Skill::Skill”的前一个定义
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.cpp(4,8): error C2084: 函数“Skill::Skill(void)”已有主体
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.cpp(3,8):
+  参见“{ctor}”的前一个定义
   
   YourPet.cpp
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
+C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(11,2): error C2535: “Skill::Skill(void)”: 已经定义或声明成员函数
   (编译源文件“YourPet.cpp”)
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\Skill.h(10,2):
-      参见“Skill::Skill”的声明
-  
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\YourPet.cpp(16,55): error C3861: “getExp”: 找不到标识符
-C:\Users\17444\Desktop\C\五行大陆\五行大陆\YourPet.cpp(16,42): error C2593: “operator <<”不明确
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(486,39):
-      可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(454,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(436,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(418,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(400,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(382,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(364,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(346,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(328,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(309,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(283,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(264,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(230,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(212,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(206,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(200,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(195,39):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1088,32):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(953,31):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(947,31):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(942,31):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(936,31):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(819,31):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(774,31):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(738,32):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(694,32):
-      或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
-      C:\Users\17444\Desktop\C\五行大陆\五行大陆\YourPet.cpp(16,42):
-      尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, unknown-type)”时
+  C:\Users\29343\Desktop\MUDprogram\element_land\五行大陆\Skill.h(10,2):
+  参见“Skill::Skill”的声明
   
   正在生成代码...

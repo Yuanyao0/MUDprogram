@@ -20,7 +20,7 @@ Pet::Pet(int aseed) {
 	srand(seed);
 	int theLevel = rand() % MAXPETLEVEL + 1;
 	level = theLevel;
-
+	init(aseed);
 	initSkills(aseed);
 
 	nowLife = life;
