@@ -130,8 +130,40 @@ int Pet::getPP()const {
 	return PP;
 }
 
-
-
+void Pet::showSkillInfo(int aseed)
+{
+	skillCount = SKILLCOUNT[aseed];
+	int skillseed = 0;
+	for (int i = 0; i < aseed; i++)skillseed += SKILLCOUNT[i];
+	for (int i = skillseed; i < skillseed + skillCount; i++) {
+		cout << "技能名称" << SKILLNAME[i] << endl;
+		cout << "威力" << SKILLavoidable[i] << endl;
+		if (SKILLunavoidable[i])
+			cout << "，造成无法闪避的伤害" << SKILLunavoidable[i];
+		if (SKILLunavoidablePERCENT[i])
+			cout << "，造成无法闪避的伤害" << SKILLunavoidablePERCENT[i] * 100 << "%";
+		if (SKILLavoidablePERCENT[i])
+			cout << "，造成伤害" << SKILLavoidablePERCENT[i] * 100 << "%";
+		if (SKILLpowerKEY[i])
+			cout << "，增加攻击力" << SKILLpowerBUFF[i] * 100 << "%";
+		if (SKILLprotectpowerKEY[i])
+			cout << "，增加防御力" << SKILLprotectpowerBUFF[i] * 100 << "%";
+		if (SKILLhpKEY[i]) {
+			if (SKILLhp[i])
+				cout << "，增加HP" << SKILLhp[i];
+			else
+				cout << "，减少HP" << SKILLhp[i];
+			if (SKILLhpPERCENT[i])
+				cout << "，增加HP" << SKILLhpPERCENT[i] * 100 << "%";
+			else
+				cout << "，减少HP" << SKILLhpPERCENT[i] * 100 << "%";
+		}
+		cout << "，消耗PP" << SKILLppCONSUME[i];
+		cout << "，技能持续" << SKILLround[i] << "回合";
+		if (SKILLlifeKEY[i])
+			cout << "此技能使用后会至少保留1HP";
+	}
+}
 int Pet::getLife()const
 {
 	return this->life;

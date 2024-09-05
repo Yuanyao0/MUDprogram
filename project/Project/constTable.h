@@ -25,63 +25,63 @@ const std::string SKILLNAME[SKILLALLCOUNT] = { "钢铁撕咬","铜墙铁壁","黄金冲撞",
 "钢铁爪牙","铜墙铁壁","黄金冲撞","硬化","叶刃拳","寄生种子","生命长河","森罗万象",
 "急速水弹","水淹七军","灭世洪流","水神祝福","烈焰冲撞","熊熊烈火","舍身一击","火云邪神",
 "飞沙走石","沙之壁垒", "撕咬","沙尘暴","天崩地裂","寒冰王冠","自然力量","金戈尤在" };				//技能名称
-const int SKILLunavoidable[SKILLALLCOUNT] = {
+const int SKILLunavoidable[SKILLALLCOUNT] = { //追踪 无法闪避的伤害
 	0,0,0,20,  0,0,0,20,0,0,0,30,0,0,0,20,0,0,0,40,0,30,0,0,
 	0,0,0,0,   0,0,0,0, 0,0,0,0,    0,30,0,0,   100,0,0,0
 };
-const double SKILLunavoidablePERCENT[SKILLALLCOUNT] = {
+const double SKILLunavoidablePERCENT[SKILLALLCOUNT] = { //追踪百分比 百分比伤害
 	0,0,0,0,   0,0.17,0,0, 0,0.14,0,0,    0,0.17,0,0,   -0.2,0,0,0,     0,0,0,0,
 	0,0.17,0,0,   0,0.14,0,0, 0,0.17,0,0,    0,0,0,0,   0.2,0,0,0
 };
-const int SKILLavoidable[SKILLALLCOUNT] = {
+const int SKILLavoidable[SKILLALLCOUNT] = { //真伤 
 	120,0,0,0,    100,0,150,0,          100,0,250,0,           100,0,200,0,        100,0,150,0,      100,0,80,0,
 	100,0,80,0,    100,0,300,0,          120,0,200,0,           120,0,150,200,        0,0,0,0
 };
-const double SKILLavoidablePERCENT[SKILLALLCOUNT] = {
+const double SKILLavoidablePERCENT[SKILLALLCOUNT] = { //真伤百分比 
 	0,0.1,0,0,    0,0,0,0,          0,0.1,0,0,           0,0,0,0,        0,0.1,0,0,      0,0,0,0.1,
 	0,0,0,0.1,    0,0,0,0,          0,0,0,0,           0,0,0,0,        0,0,0,0
 };
-const bool SKILLpowerKEY[SKILLALLCOUNT] = {
+const bool SKILLpowerKEY[SKILLALLCOUNT] = { //攻击key 是否增加攻击力
 	0,0,1,0,    0,0,0,0,          0,0,0,1,           0,0,0,1,        0,0,0,0,      0,0,1,0,
 	0,0,0,0,    0,0,0,1,          0,0,0,1,           0,0,0,0,        0,0,0,1
 };
-const double SKILLpowerBUFF[SKILLALLCOUNT] = {
+const double SKILLpowerBUFF[SKILLALLCOUNT] = { //攻击 增加的攻击力百分比
 	0,0,0.25,0,    0,0,0,0,          0,0,0,0.3,           0,0,0,0.3,        0,0,0,0,      0,0,0.2,0,
 	0,0,0,0,    0,0,0,0.3,          0,0,0,1.0,           0,0,0,0,        0,0,0,0.5
 };
-const bool SKILLprotectpowerKEY[SKILLALLCOUNT] = {
+const bool SKILLprotectpowerKEY[SKILLALLCOUNT] = { //防御key 是否增加攻击力
 	0,1,0,0,    0,0,0,0,          0,0,0,0,           0,0,0,0,        0,0,0,1,      0,1,0,0,
 	0,0,0,0,    0,0,0,0,          0,0,0,0,           0,0,0,0,        0,1,0,0
 };
-const double SKILLprotectpowerBUFF[SKILLALLCOUNT] = {
+const double SKILLprotectpowerBUFF[SKILLALLCOUNT] = { //防御 增加的防御百分比
 	0,0.3,0,0,    0,0,0,0,          0,0,0,0,           0,0,0,0,        0,0,0,0.3,      0,0.3,0,0,
 	0,0,0,0,    0,0,0,0,          0,0,0,0,           0,0,0,0,        0,0.5,0,0
 };
-const bool SKILLhpKEY[SKILLALLCOUNT] = {
+const bool SKILLhpKEY[SKILLALLCOUNT] = { //HPkey 是否增加HP
 	0,0,0,0,    0,0,0,1,          0,0,1,0,           0,0,1,0,        0,0,0,0,      0,0,0,1,
 	0,0,1,1,    0,0,1,0,          0,0,1,1,           0,1,0,1,        0,0,1,1
 };
-const int SKILLhp[SKILLALLCOUNT] = {
+const int SKILLhp[SKILLALLCOUNT] = { //HP 增加的HP
 	0,0,0,0,    0,0,0,0,          0,0,-250,0,           0,0,0,0,        0,0,0,0,      0,0,0,100,
 	0,0,50,0,    0,0,-300,0,          0,0,0,0,           0,0,0,-100,        0,0,0,0
 };
-const double SKILLhpPERCENT[SKILLALLCOUNT] = {
+const double SKILLhpPERCENT[SKILLALLCOUNT] = { //HP百分比  增加的HP百分比
 	0,0,0,0,    0,0,0,0.25,          0,0,0,0,           0,0,-0.5,0,        0,0,0,0,      0,0,0,0,
 	0,0,0,0.25,    0,0,0,0,          0,0,-0.5,-0.5,           0,0.2,0,0,        0,0,0.2,0.1
 };
-const int SKILLppCONSUME[SKILLALLCOUNT] = {
+const int SKILLppCONSUME[SKILLALLCOUNT] = { //PP消耗
 	10,5,5,5,    5,5,12,5,      5,5,1,5,    5,5,5,5,       10,5,5,5,       10,5,5,5,
 	10,5,5,5,    5,5,1,5,       5,5,5,5,    10,5,5,1,     1,1,1,1
 };
-const int SKILLround[SKILLALLCOUNT] = {
-	0,0,0,0,    0,3,0,4,          0,5,0,0,           0,3,0,0,        0,0,0,0,      0,0,0,0,
-	0,3,0,4,    0,5,0,0,          0,3,0,0,           0,0,0,0,        2,0,0,0
+const int SKILLround[SKILLALLCOUNT] = { //回合 技能持续的回合
+	1,1,1,1,    1,3,1,4,          1,5,1,1,           1,3,1,1,        1,1,1,1,      1,1,1,1,
+	1,3,1,4,    1,5,1,1,          1,3,1,1,           1,1,1,1,        2,1,1,1
 };
-const bool SKILLlifeKEY[SKILLALLCOUNT] = {
+const bool SKILLlifeKEY[SKILLALLCOUNT] = { //保命key 是否至少保留1hp
 	0,0,0,0,    0,0,0,0,          0,0,1,0,           0,0,1,0,        0,0,1,0,      0,0,0,0,
 	0,0,0,0,    0,0,0,0,          0,0,1,1,           0,0,0,0,        0,0,0,0
 };
-const bool SKILLmissKEY[SKILLALLCOUNT] = {
+const bool SKILLmissKEY[SKILLALLCOUNT] = { //misskey 是否闪避
 	0,0,0,1,    0,0,0,0,          0,0,0,0,           0,0,0,0,        0,1,0,0,      0,0,0,1,
 	0,0,0,0,    0,0,0,0,          0,0,0,0,           0,1,0,0,        0,1,1,0
 };

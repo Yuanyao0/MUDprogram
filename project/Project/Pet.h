@@ -13,6 +13,8 @@ public:
 	Pet( Pet* pet);
 	Pet(int aseed);
 	void init(int nowLife,int nowPP,int level,int aseed);
+	static void showSkillInfo(int aseed);
+
 	~Pet();
 	std::string getName();
 	void setName(std::string name);

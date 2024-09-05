@@ -19,7 +19,7 @@ void Command::showShopEgg(Player* player) {
 void Command::shop(Player* player) {
     char ch;
     int choice=-1;
-    while (true) {
+    while (true) { //获取选择并判断输入是否正确
         showShop();
         ch = getchar();
         choice = ch - 48;
@@ -39,7 +39,7 @@ void Command::shop(Player* player) {
         noweggsize = player->getBag()->getNowEggSize();
         capacity = player->getBag()->getEggCapacity();
 
-        if (noweggsize >= capacity)
+        if (noweggsize >= capacity) //判断背包是否已满
         {
             player->getBag()->EggshowInfo();
             std::cout << "背包已满！" << std::endl;
@@ -51,7 +51,7 @@ void Command::shop(Player* player) {
             char ch;
             int kind = -1;
             int num=-1;
-            while (true) {
+            while (true) { //获取选择并判断输入是否正确
                 showShopEgg(player);
                 ch = getchar();
                 kind = ch - 48;
@@ -63,9 +63,7 @@ void Command::shop(Player* player) {
                 Sleep(1000);
             }
             
-
-            
-            while (true) {
+            while (true) { //判断背包容量是否足够
                 std::cout <<"你选择了"<< EGGNAME[kind-1] << "，请输入你要购买的数量：" << std::endl;
                 ch = getchar();
                 num = ch - 48;
@@ -80,12 +78,12 @@ void Command::shop(Player* player) {
                 Sleep(500);
             }
             
-            if (player->getMoney() < EGGPRICE[kind - 1] * num) {
+            if (player->getMoney() < EGGPRICE[kind - 1] * num) { //判断金币是否足够
                 std::cout << "金币不足！" << std::endl;
             }
             else {
                 player->setMoney(player->getMoney() - EGGPRICE[kind - 1] * num);
-                for (int i = 0; i < num; i++)
+                for (int i = 0; i < num; i++) //根据输入创建蛋对象
                 {
                     Egg * egg = new Egg(kind);
                     player->getBag()->addEgg(egg);
@@ -96,7 +94,7 @@ void Command::shop(Player* player) {
         shop(player);
         break;
     case 2:
-        for (int i = 1; i <= player->getBag()->getNowSize(); i++)
+        for (int i = 1; i <= player->getBag()->getNowSize(); i++) //判断宠物HP是否需要回复
         {
             if (player->getBag()->getPetByIndex(i)->getNowLife() < player->getBag()->getPetByIndex(i)->getLife())
             {
@@ -107,12 +105,12 @@ void Command::shop(Player* player) {
             std::cout << "所有宠物HP均无需回复！" << std::endl;
         else
         {
-            if (player->getMoney() < HPPRICE) {
+            if (player->getMoney() < HPPRICE) { //判断金币是否足够
                 std::cout << "金币不足！" << std::endl;
             }
             else {
                 player->setMoney(player->getMoney() - HPPRICE);
-                for (int i = 0; i < player->getBag()->getNowSize(); i++)
+                for (int i = 0; i < player->getBag()->getNowSize(); i++) //回复所有宠物HP
                 {
                     player->getBag()->getPetByIndex(i)->setNowLife(player->getBag()->getPetByIndex(i)->getLife());
                 }
@@ -122,10 +120,10 @@ void Command::shop(Player* player) {
         shop(player);
         break;
     case 3:
-        
+
         for (int i = 1; i <= player->getBag()->getNowSize(); i++)
         {
-            if (player->getBag()->getPetByIndex(i)->getNowLife() < player->getBag()->getPetByIndex(i)->getLife())
+            if (player->getBag()->getPetByIndex(i)->getNowLife() < player->getBag()->getPetByIndex(i)->getLife()) //判断宠物PP是否需要回复
             {
                 m = 1;
             }
@@ -134,12 +132,12 @@ void Command::shop(Player* player) {
             std::cout << "所有宠物PP均无需回复！" << std::endl;
         else
         {
-            if (player->getMoney() < PPPRICE) {
+            if (player->getMoney() < PPPRICE) { // 判断金币是否足够
                 std::cout << "金币不足！" << std::endl;
             }
             else {
                 player->setMoney(player->getMoney() - PPPRICE);
-                for (int i = 0; i < player->getBag()->getNowSize(); i++)
+                for (int i = 0; i < player->getBag()->getNowSize(); i++) //回复所有宠物PP
                 {
                     player->getBag()->getPetByIndex(i)->setNowPP(player->getBag()->getPetByIndex(i)->getPP());
                 }
@@ -158,7 +156,7 @@ void Command::shop(Player* player) {
 void Command::changeMap(int& pos, Player& player) {
     
     int k[6], j = 1;
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 6; i++) { //展示地图
         if (i != pos) {
             cout << j << ". " << MAP[i] << endl;
             k[j++] = i;
@@ -169,9 +167,9 @@ void Command::changeMap(int& pos, Player& player) {
     int  mapchoice = -1;
     while (true) {
         cout << "请选择你要切换的地图：" << endl;
-        ch = getchar();
+        ch = getchar(); // 获取地图选择
         mapchoice = ch - 48;
-        while (true)if (getchar() == '\n')break;
+        while (true)if (getchar() == '\n')break; //判断输入是否正确
         if (mapchoice > 0 && mapchoice <= 6) {
             break;
         }
@@ -221,7 +219,7 @@ void Command::newGame()
         newshow();
         ch = getchar();
         iscontinue = ch - 48;
-        while (true)if (getchar() == '\n')break;
+        while (true)if (getchar() == '\n')break; //判断输入是否正确
         if (iscontinue > 0 && iscontinue <= 2) {
             break;
         }
@@ -233,7 +231,7 @@ void Command::newGame()
     {
         string name;
         cout << "请输入你的昵称：" << endl;
-        std::cin >> name;
+        std::cin >> name; //获取玩家昵称
         player->setName(name);
 
         std::cout << "请选择你的初始宠物：" << std::endl;
@@ -243,7 +241,7 @@ void Command::newGame()
         while (true) {
             //...
             getchar();
-            ch = getchar();
+            ch = getchar(); //获取宠物选择
             petnum = ch - 48;
             while (true)if (getchar() == '\n')break;
             if (petnum > 0 && petnum <= 5 ) {
@@ -270,7 +268,7 @@ void Command::newGame()
                 showChoice(pos);
                 ch = getchar();
                 choice = ch - 48;
-                while (true)if (getchar() == '\n')break;
+                while (true)if (getchar() == '\n')break; //判断输入是否正确
                 if (choice > 0 && choice <= 4) {
                     break;
                 }
@@ -280,17 +278,17 @@ void Command::newGame()
 
             switch (choice) {
             case 1:
-                changeMap(pos, *player);
+                changeMap(pos, *player); //切换地图
                 continue;
             case 2:
-                shop(player);
+                shop(player); //进入商店
                 break;
             case 3:
-                battle = new Battle(*player);
+                battle = new Battle(*player); //创建新战斗
                 battle->beginBattle();
                 break;
             case 4:
-                saveGameData(player, house, filename);
+                saveGameData(player, house, filename); //保存游戏
                 break;
             default:
                 cout << "输入无效请重新输入！！！" << endl;
@@ -309,7 +307,7 @@ void Command::newGame()
                 showMapChoice(pos);
                 ch = getchar();
                 choice = ch - 48;
-                while (true)if (getchar() == '\n')break;
+                while (true)if (getchar() == '\n')break; //判断输入是否正确
                 if (choice > 0 && choice <= 3) {
                     break;
                 }
@@ -318,14 +316,14 @@ void Command::newGame()
             }
             switch (choice) {
             case 1:
-                changeMap(pos, *player);
+                changeMap(pos, *player); //切换地图
                 continue;
             case 2:
-                battle = new Battle(*player);
+                battle = new Battle(*player); //创建新战斗
                 battle->beginBattle();
                 break;
             case 3:
-                saveGameData(player, house, filename);
+                saveGameData(player, house, filename); //保存游戏存档
                 break;
             default:
                 cout << "退出报错。" << endl;
