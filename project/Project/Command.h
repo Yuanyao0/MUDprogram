@@ -11,5 +11,8 @@ public:
 	static void changeMap(int& pos, Player& player);
 	static void shop(Player* player);//进行商店对话
 	static void showShopEgg(Player* player);
+	static void newshow();
+	static void showChoice(int x);
+	static void showMapChoice(int x);
 };
 #endif // !__COMMAND_H__
