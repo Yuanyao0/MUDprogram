@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\17444\\Desktop\\Element_Land Ver 1.0 - \u526F\u672C\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5ED61AE-D47F-4E65-9A39-AC01FA693086}|Element_Land Ver 1.0\\Element_Land Ver 1.0.vcxproj|C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\Element_Land Ver 1.0\\Command.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5ED61AE-D47F-4E65-9A39-AC01FA693086}|Element_Land Ver 1.0\\Element_Land Ver 1.0.vcxproj|solutionrelative:Element_Land Ver 1.0\\Command.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5ED61AE-D47F-4E65-9A39-AC01FA693086}|Element_Land Ver 1.0\\Element_Land Ver 1.0.vcxproj|C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\Element_Land Ver 1.0\\Battle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5ED61AE-D47F-4E65-9A39-AC01FA693086}|Element_Land Ver 1.0\\Element_Land Ver 1.0.vcxproj|solutionrelative:Element_Land Ver 1.0\\Battle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Battle.cpp",
+              "DocumentMoniker": "C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\Element_Land Ver 1.0\\Battle.cpp",
+              "RelativeDocumentMoniker": "Element_Land Ver 1.0\\Battle.cpp",
+              "ToolTip": "C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\Element_Land Ver 1.0\\Battle.cpp",
+              "RelativeToolTip": "Element_Land Ver 1.0\\Battle.cpp",
+              "ViewState": "AQIAADsBAAAAAAC21qb0v0kBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-09T01:20:10.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Command.cpp",
+              "DocumentMoniker": "C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\Element_Land Ver 1.0\\Command.cpp",
+              "RelativeDocumentMoniker": "Element_Land Ver 1.0\\Command.cpp",
+              "ToolTip": "C:\\Users\\29343\\Desktop\\MUDprogram\\Element_Land\\Element_Land Ver 1.0\\Command.cpp",
+              "RelativeToolTip": "Element_Land Ver 1.0\\Command.cpp",
+              "ViewState": "AQIAANYAAAAAAAAAAADwv+0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-09T01:14:02.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

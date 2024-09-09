@@ -115,6 +115,11 @@ void Command::House(Player * player,petHouse* house) {
         cout << "移动成功！\n";
         break;
     case 3:
+        if (player->getBag()->getNowSize() + house->getNowSize() == 1) {
+            cout << "只有一个宠物，不允许丢弃！\n";
+            Sleep(1000);
+            break;
+        }
         while (true) {
             house->showInfo();
             cout << endl;
@@ -199,6 +204,11 @@ void Command::House(Player * player,petHouse* house) {
             Sleep(1000);
         }
         if (choice == 1) {
+            if (house->getNowSize() == 0) {
+                cout << "仓库中无宠物！\n";
+                Sleep(1000);
+                break;
+            }
             while (true) {
                 house->showInfo();
                 cout << endl;
@@ -223,6 +233,11 @@ void Command::House(Player * player,petHouse* house) {
                 while (true)if (getchar() == '\n')break;
         }
         else {
+            if (player->getBag()->getNowSize() == 0) {
+                cout << "背包中无宠物！\n";
+                Sleep(1000);
+                break;
+            }
             while (true) {
                 cout << "背包中宠物：\n";
                 player->getBag()->showInfo();

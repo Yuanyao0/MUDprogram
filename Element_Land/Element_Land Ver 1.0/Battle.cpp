@@ -61,6 +61,7 @@ bool Battle::choosePet() {
 	}
 	else {
 		cout << "宠物全部阵亡，您做个人吧！\n";
+		Sleep(1000);
 		return false;
 	}
 	
@@ -224,7 +225,7 @@ void Battle::beginBattle()
 						+(1- yourPet->getProtectPower()*0.001)
 						*wildPet->getPower()))
 						* wildPet->ElementFight(yourPet);
-					cout << "技能‘" << BSkill[j]->getName()<<"’对‘"<< yourPet-> getName()<< "’造成 " << allhurt << " 点伤害！\n";
+					cout << "敌方技能‘" << BSkill[j]->getName()<<"’对‘"<< yourPet-> getName()<< "’造成 " << allhurt << " 点伤害！\n";
 					Sleep(1000);
 					
 					if (allhurt >= yourPet->getNowLife()) {
@@ -237,8 +238,9 @@ void Battle::beginBattle()
 					}
 					else yourPet->setNowLife(yourPet->getNowLife()- allhurt);
 					BSkill[j]->setRound(BSkill[j]->getRound()-1);
-					for (int i = 0; i < BSkill.size(); i++)if (BSkill[j]->getRound() == 0)Bremove(j);
+					
 				}
+			for (int i = BSkill.size() - 1; i >= 0; i--)if (BSkill[i]->getRound() == 0)Bremove(i);
 			cout << endl;
 			if (yourPet->getNowLife() > 0) {
 					//A没被打死，A的增益可以起作用了
@@ -254,14 +256,14 @@ void Battle::beginBattle()
 							else {
 								yourPet->setNowLife(yourPet->getNowLife() + allHPadd);
 							}
-							cout << "‘" << ASkill[j]->getName()<<"’技能为‘"<< yourPet->getName() << "’加了 "<< allHPadd << " HP！\n";
+							cout << "我方‘" << ASkill[j]->getName()<<"’技能为‘"<< yourPet->getName() << "’加了 "<< allHPadd << " HP！\n";
 							if (ASkill[j]->getLifeKey())
 								if (yourPet->getNowLife() <= 0) {
 									yourPet->setNowLife(1);
-									cout << "由于‘" << ASkill[j]->getName() << "’的保命功能，现在‘" << yourPet->getName() << "’还有1滴血\n";
+									cout << "我方由于‘" << ASkill[j]->getName() << "’的保命功能，现在‘" << yourPet->getName() << "’还有1滴血\n";
 								}
 							if (yourPet->getNowLife() <= 0) {
-								cout << "‘" << yourPet->getName() << "’使用‘" << ASkill[j]->getName() << "’导致自己阵亡！\n";
+								cout << "我方‘" << yourPet->getName() << "’使用‘" << ASkill[j]->getName() << "’导致自己阵亡！\n";
 								Sleep(1000);
 								system("cls");
 								break;
@@ -270,12 +272,12 @@ void Battle::beginBattle()
 						if (ASkill[j]->getPowerBuffKey()) {
 							int allPoweradd = yourPet->getPower() * ASkill[j]->getPowerBuff();
 							yourPet->setPower(yourPet->getPower() + allPoweradd);
-							cout<<"‘" << ASkill[j]->getName() << "’技能为‘" << yourPet->getName() << "’加了 " << allPoweradd << " 点攻击力\n";
+							cout<<"我方‘" << ASkill[j]->getName() << "’技能为‘" << yourPet->getName() << "’加了 " << allPoweradd << " 点攻击力\n";
 						}
 						if (ASkill[j]->getProtectPowerBuffKey()) {
 							int allProtectPoweradd = yourPet->getProtectPower() * ASkill[j]->getProtectPowerBuff();
 							yourPet->setProtectPower(yourPet->getProtectPower() + allProtectPoweradd);
-							cout << "‘" << ASkill[j]->getName() << "’技能为‘" << yourPet->getName() << "’加了 " << allProtectPoweradd << " 点防御力\n";
+							cout << "我方‘" << ASkill[j]->getName() << "’技能为‘" << yourPet->getName() << "’加了 " << allProtectPoweradd << " 点防御力\n";
 						}
 						
 						
@@ -330,7 +332,7 @@ void Battle::beginBattle()
 						+ (1 - wildPet->getProtectPower() * 0.001)
 						* yourPet->getPower()))
 					* yourPet->ElementFight(wildPet);
-				cout << "技能‘" << ASkill[j]->getName() << "’"<<"对‘" << wildPet->getName() << "’造成 " << allhurt << " 点伤害！\n";
+				cout << "我方技能‘" << ASkill[j]->getName() << "’"<<"对‘" << wildPet->getName() << "’造成 " << allhurt << " 点伤害！\n";
 				Sleep(1000);
 				
 				
@@ -346,8 +348,9 @@ void Battle::beginBattle()
 				}
 				else wildPet->setNowLife(wildPet->getNowLife() - allhurt);
 				ASkill[j]->setRound(ASkill[j]->getRound() - 1);
-				for (int i = 0; i < ASkill.size(); i++)if (ASkill[j]->getRound() == 0)Aremove(j);
+				
 			}
+			for (int i = ASkill.size() - 1; i >= 0; i--)if (ASkill[i]->getRound() == 0)Aremove(i);
 			cout << endl;
 			if (wildPet->getNowLife() > 0) {
 				//B没被打死，B的增益可以起作用了
@@ -364,12 +367,12 @@ void Battle::beginBattle()
 						else {
 							wildPet->setNowLife(wildPet->getNowLife() + allHPadd);
 						}
-						cout << "技能‘" << BSkill[j]->getName() << "为‘" << wildPet->getName() << "’加了 " << allHPadd << " HP\n";
+						cout << "敌方技能‘" << BSkill[j]->getName() << "为‘" << wildPet->getName() << "’加了 " << allHPadd << " HP\n";
 						Sleep(1000);
 						if (BSkill[j]->getLifeKey())
 							if (wildPet->getNowLife() <= 0) {
 								wildPet->setNowLife(1);
-								cout << "由于‘" << BSkill[j]->getName() << "’的保命功能，现在‘" << wildPet->getName() << "’还有1滴血\n";
+								cout << "敌方由于‘" << BSkill[j]->getName() << "’的保命功能，现在‘" << wildPet->getName() << "’还有1滴血\n";
 								Sleep(1000);
 							}
 						if (wildPet->getNowLife() <= 0) {
@@ -382,13 +385,13 @@ void Battle::beginBattle()
 					if (BSkill[j]->getPowerBuffKey()) {
 						int allPoweradd = wildPet->getPower() * BSkill[j]->getPowerBuff();
 						wildPet->setPower(wildPet->getPower() + allPoweradd);
-						cout<<"技能‘" << BSkill[j]->getName() << "’为‘" << wildPet->getName() << "’加了 " << allPoweradd << " 点攻击力\n";
+						cout<<"敌方技能‘" << BSkill[j]->getName() << "’为‘" << wildPet->getName() << "’加了 " << allPoweradd << " 点攻击力\n";
 						Sleep(1000);
 					}
 					if (BSkill[j]->getProtectPowerBuffKey()) {
 						int allProtectPoweradd = wildPet->getProtectPower() * BSkill[j]->getProtectPowerBuff();
 						wildPet->setPower(wildPet->getPower() + allProtectPoweradd);
-						cout << "技能‘" << BSkill[j]->getName() << "’为‘" << wildPet->getName() << "’加了 " << allProtectPoweradd << " 点防御力\n";
+						cout << "敌方技能‘" << BSkill[j]->getName() << "’为‘" << wildPet->getName() << "’加了 " << allProtectPoweradd << " 点防御力\n";
 						Sleep(1000);
 					}
 
