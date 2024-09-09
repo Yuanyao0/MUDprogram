@@ -1,0 +1,23 @@
+﻿  Bag.cpp
+  Battle.cpp
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(217,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(248,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(271,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(276,31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(323,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(357,20): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(383,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\Element_Land Ver 1.0\Battle.cpp(389,30): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  ColorContainer.cpp
+  ColorSys.cpp
+  Command.cpp
+  ConsoleColor.cpp
+  Egg.cpp
+  main.cpp
+  Pet.cpp
+  petHouse.cpp
+  Player.cpp
+  Skill.cpp
+  Utill.cpp
+  正在生成代码...
+  Element_Land Ver 1.0.vcxproj -> C:\Users\86187\Desktop\Element_Land Ver 1.0 - 副本\x64\Debug\Element_Land Ver 1.0.exe
